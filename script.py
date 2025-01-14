@@ -1,10 +1,6 @@
 import csv
 import json
 
-# books_file = "books.csv"
-# users_file = "users.json"
-# result_file = "result.json"
-
 
 def create_book_list(books_file):
     with open(books_file, "r") as b:
